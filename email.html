@@ -1,0 +1,75 @@
+<html>
+
+<head>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+	<script src="email.js"></script>
+
+	<link rel="stylesheet" href="email.css">
+</head>
+
+<body>
+
+<h1>Email Inbox</h1>
+
+<table class="table table-hover" id="inbox">
+	<thead>
+	<tr class="active">
+		<th>Sender</th>
+		<th>Subject</th>
+		<th>Received</th></tr>
+	</thead>
+
+	<tbody>
+	
+	<tr class = "warning email-header" id = "header-template">
+		<td id = "sender_"></td>
+		<td id = "subject_"></td>
+		<td id = "timestamp_"></td>
+	</tr>
+	
+	<tr class = "email-body" id = "body-template">
+		<td id ="receiver_"></td>
+		<td id = "content_"></td>
+	</tr>
+	
+	<!-- These fake emails are an eyesore
+	<tr class="warning email-header">
+		<td>Bob</td>
+		<td>Re: Your brains</td>
+		<td>01/03/2014 9:56pm</td></tr>
+
+	<tr class="email-body">
+		<td colspan="3">
+			<p>To: Tom@tom.tom</p>
+			<p>Heya Tom, it's Bob, from the office down the hall...</p></td></tr>
+
+	<tr class="warning email-header">
+		<td>Your only friend</td>
+		<td>I've been shockingly nice</td>
+		<td>04/07/2011 12:34pm</td></tr>
+
+	<tr class="email-body">
+		<td colspan="3">
+			<p>To: want@you.gone</p>
+			<p>That's what I'm counting on.</p></td></tr>
+
+	<tr class="warning email-header">
+		<td>Mr. Fancy Pants</td>
+		<td>Chances are...</td>
+		<td>10/21/2005 4:16am</td></tr>
+
+	<tr class="email-body">
+		<td colspan="3">
+			<p>To: dancing@the.parade</p>
+			<p>You thought you had some fancy pants and now you know it's true.</p></td></tr>
+	-->
+	</tbody>
+	
+</table>
+
+</body>
+</html>
