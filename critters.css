@@ -1,0 +1,20 @@
+#map{
+	position: relative;
+	border : solid 1px gray;
+	padding : 2px;
+	margin-top : 30px;
+	display : inline-block;
+    width: 800px;
+	height: 900px;
+}
+
+#map-thing
+{
+	position: relative;
+}
+
+.critter
+{
+	width: 100px;
+	height: 87px;
+}
